@@ -1,0 +1,22 @@
+{
+  "name": "local-custom-print",
+  "version": "1.0.0",
+  "main": "web/index.js",
+  "license": "UNLICENSED",
+  "scripts": {
+    "shopify": "shopify",
+    "build": "shopify app build",
+    "dev": "shopify app dev",
+    "info": "shopify app info",
+    "generate": "shopify app generate",
+    "deploy": "shopify app deploy"
+  },
+  "dependencies": {
+    "@shopify/app": "3.14.0",
+    "@shopify/cli": "3.14.0",
+    "formdata-node": "^5.0.0",
+    "fs": "^0.0.1-security",
+    "xml-js": "^1.6.11"
+  },
+  "author": "win10"
+}
